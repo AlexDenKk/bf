@@ -12,5 +12,5 @@ sudo mv bf /usr/bin/
 
 ## usage
 ```cmd
-bf <filename>
+bf
 ```
