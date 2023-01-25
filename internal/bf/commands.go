@@ -36,7 +36,7 @@ var COMMANDS = map[string]string{
 	"+": "memory[cursor]++",
 	"-": "memory[cursor]--",
 	",": "memory[cursor] = input()",
-	".": "println(string(memory[cursor]))",
+	".": "print(string(memory[cursor]))",
 	"<": "cursor--",
 	">": "cursor++",
 	"[": "for memory[cursor] != 0 {",

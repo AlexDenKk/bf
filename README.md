@@ -7,9 +7,10 @@ simple brainfuck compiler written in go
 ## build
 ```cmd
 go build -o bf cmd/main.go
+sudo mv bf /usr/bin/
 ```
 
 ## usage
 ```cmd
-./bf <filename>
+bf <filename>
 ```
